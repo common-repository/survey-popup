@@ -1,0 +1,185 @@
+/**
+ * 05. Widget
+ */
+.control-section{
+
+  .srvy-field{
+    padding: 0;
+
+    .srvy-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 6px;
+
+      h4{
+        display: block;
+        font-size: 13px;
+        line-height: 1;
+        font-weight: 600;
+        color: inherit;
+      }
+    }
+
+    .srvy-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .srvy-help{
+    top: -5px;
+    right: -5px;
+  }
+
+  .srvy-field-select select{
+    width: 100%;
+  }
+
+  .srvy-field-heading{
+    color: inherit;
+    font-size: 14px;
+    line-height: 1em;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .srvy-field-subheading{
+    color: inherit;
+    font-size: 11px;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 10px 15px;
+  }
+
+  .srvy-subtitle-text{
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  .srvy-field-submessage .srvy-submessage{
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .srvy-fieldset{
+
+    .srvy-field-submessage .srvy-submessage,
+    .srvy-field-heading,
+    .srvy-field-subheading{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .srvy-field-date,
+  .srvy-field-datetime{
+
+    label{
+      display: block;
+    }
+
+    .srvy--to{
+      margin-top: 4px;
+      margin-left: 0;
+    }
+  }
+
+  .srvy-field-sorter{
+
+    ul li{
+      padding: 5px;
+    }
+
+    .srvy-modules{
+      float: none;
+      width: 100%;
+    }
+
+    .srvy-modules:first-child{
+      padding-right: 0;
+      padding-bottom: 15px;
+    }
+  }
+
+  .srvy-field-background{
+
+    .srvy--background-attributes{
+      flex-direction: column;
+    }
+  }
+
+  .srvy-field-spacing{
+    input{
+      width: 90px;
+    }
+  }
+
+  .srvy-field-border{
+
+    .srvy--input{
+      flex: 1 50%;
+    }
+
+    input,
+    select{
+      width: 100%;
+    }
+  }
+
+  .srvy-field-spinner{
+    input{
+      width: 50px;
+    }
+  }
+
+  .srvy-field-number{
+
+    .srvy--wrap{
+      width: 100%;
+    }
+  }
+
+  .srvy-field-backup{
+
+    .srvy-export-data{
+      display: none;
+    }
+  }
+
+  .srvy-field-fieldset{
+
+    .srvy-fieldset-content{
+      border-color: #e5e5e5;
+    }
+  }
+
+  .srvy-tabbed-content,
+  .srvy-sortable-content,
+  .srvy-repeater-content,
+  .srvy-fieldset-content,
+  .srvy-cloneable-content,
+  .srvy-accordion-content{
+
+    > .srvy-field{
+      padding: 10px;
+
+      .srvy-title{
+        margin-bottom: 5px;
+      }
+
+      h4{
+        font-size: 12px;
+      }
+    }
+  }
+
+  .srvy-depend-hidden.srvy-depend-on{
+    display: none !important;
+  }
+
+  .srvy-depend-visible.srvy-depend-on{
+    border-top: 0 !important;
+  }
+}

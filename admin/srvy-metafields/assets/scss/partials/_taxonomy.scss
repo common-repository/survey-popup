@@ -1,0 +1,114 @@
+/**
+ * 06. Taxonomy
+ */
+.srvy-taxonomy{
+  max-width: 95%;
+
+  > .srvy-field{
+    border-top: none !important;
+  }
+
+  > .srvy-field-heading{
+    font-size: 1.1em;
+    padding: 20px !important;
+    border: 1px solid #ddd;
+  }
+
+  > .srvy-field-subheading{
+    font-size: 12px;
+    padding: 15px !important;
+    border: 1px solid #ddd;
+  }
+
+  > .srvy-field-submessage{
+
+    .srvy-submessage{
+      padding: 15px;
+      border-left-width: 1px;
+      border-left-style: solid;
+      border-right-width: 1px;
+      border-right-style: solid;
+    }
+  }
+
+  > .srvy-field-notice{
+    background-color: transparent;
+  }
+
+  .srvy-section-title{
+    display: block;
+    padding: 15px ;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+  }
+}
+
+.srvy-taxonomy-add-fields{
+
+  > .srvy-field{
+    padding: 8px 0;
+
+    > .srvy-title{
+      float: none;
+      width: 100%;
+      padding: 2px 2px 4px 0;
+
+      h4{
+        font-size: 12px;
+        font-weight: normal;
+      }
+    }
+
+    > .srvy-fieldset{
+      float: none;
+      width: 100%;
+
+      > .srvy-help{
+        right: -5px;
+      }
+    }
+  }
+
+  + p.submit{
+    margin-top: 0;
+  }
+}
+
+.srvy-taxonomy-edit-fields{
+
+  > .srvy-field{
+    padding: 20px 0;
+
+    > .srvy-title{
+      width: 200px;
+
+      h4{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.3;
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+
+    > .srvy-fieldset{
+      width: calc(100% - 220px);
+
+      > .srvy-help{
+        top: -5px;
+        right: -5px;
+      }
+    }
+  }
+
+  > .srvy-field-submessage{
+    margin: 20px 0;
+  }
+
+  > .srvy-field-subheading,
+  > .srvy-field-heading{
+    margin: 20px 0;
+    border: 1px solid #ddd;
+  }
+}

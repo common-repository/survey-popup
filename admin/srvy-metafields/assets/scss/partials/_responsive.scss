@@ -1,0 +1,157 @@
+/**
+ * 12. Responsive
+ */
+@media only screen and (max-width:1200px){
+
+  .srvy-metabox{
+
+    .srvy-field{
+
+      .srvy-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .srvy-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:782px){
+
+  .srvy-header-inner{
+    text-align: center;
+
+    h1{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .srvy-form-result{
+    float: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .srvy-search,
+  .srvy-header-right,
+  .srvy-header-left{
+    width: 100%;
+  }
+
+  .srvy-search{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .srvy-footer{
+    text-align: center;
+  }
+
+  .srvy-buttons{
+    float: none;
+  }
+
+  .srvy-copyright{
+    float: none;
+    margin-top: 10px;
+  }
+
+  .srvy-nav,
+  .srvy-expand-all,
+  .srvy-reset-section,
+  .srvy-nav-background{
+    display: none !important;
+  }
+
+  .srvy-nav-normal + .srvy-content{
+    margin-left: 0;
+  }
+
+  .srvy-section-title,
+  .srvy-section{
+    display: block !important;
+  }
+
+  .srvy-field{
+
+    .srvy-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .srvy-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .srvy-field-color{
+
+    .button.wp-picker-clear{
+      padding: 0 8px;
+      line-height: 2.14285714;
+      min-height: 32px;
+    }
+  }
+
+  .srvy-profile-options,
+  .srvy-taxonomy-edit-fields{
+
+    > .srvy-field{
+
+      > .srvy-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      > .srvy-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+
+  .srvy-nav-menu-options{
+
+    > .srvy-fields{
+      margin-left: -10px;
+      margin-right: -10px;
+
+      > .srvy-field{
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 782px) {
+
+  .srvy-modal{
+
+    .srvy-modal-inner{
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-height: 750px) {
+
+  .srvy-modal{
+
+    .srvy-modal-inner{
+      height: auto;
+    }
+
+    .srvy-modal-content{
+      height: calc(100vh - 200px);
+    }
+  }
+}

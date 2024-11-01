@@ -1,0 +1,485 @@
+/* Preloader */
+/* Add after */
+#_srvy_page_options.srvy--metabox-options:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-image: url('../srvy-metafields/assets/images/preloader.gif');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    z-index: 999;
+}
+#_srvy_page_options.srvy--metabox-options.acc--after-none:after {
+    content: none;
+}
+/* Preloader End */
+
+/* Remove extra hide from top of the metabox body */
+#post-body #normal-sortables {
+    min-height: 0px;
+}
+
+.srvy--metabox-options#_srvy_page_options button.handlediv,
+.srvy--metabox-options#_srvy_page_options .handle-actions.hide-if-no-js {
+    display: none;
+}
+
+/* Metabox Heading Styel */
+.srvy--metabox-options#_srvy_page_options h2.hndle.ui-sortable-handle {
+    font-size: 32px;
+    padding-top: 35px;
+    background: #4a2242;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding-bottom: 60px;
+    letter-spacing: 1px;
+}
+.srvy--metabox-options#_srvy_page_options h2.hndle.ui-sortable-handle img {
+    width: 150px;
+}
+
+/* Nav */
+.srvy--metabox-options#_srvy_page_options .srvy-nav {
+    width: 100%;
+}
+.srvy-theme-light .srvy-nav ul li .srvy-active,
+.srvy-theme-light .srvy-nav ul li a:hover {
+    background-color: #795548;
+    color: #fff;
+}
+.srvy--metabox-options#_srvy_page_options .srvy-nav ul {
+    margin-top: -33px;
+    background: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 7px -3px;
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy-nav ul li {
+    display: inline-block;
+}
+.srvy--metabox-options#_srvy_page_options .srvy-nav ul li:first-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.srvy--metabox-options#_srvy_page_options .srvy-theme-light .srvy-nav ul li .srvy-section-active {
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy-content {
+    margin-left: 0;
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy-theme-light .srvy-nav-background {
+    display: none;
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy-nav ul li a {
+    padding: 25px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy-theme-light .srvy-nav ul li a {
+    border-bottom: 0;
+}
+
+/* Tabs details */
+.srvy--metabox-options#_srvy_page_options .srvy--menu-detail {
+    padding: 15px 30px;
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy--menu-detail strong {
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .srvy--metabox-options#_srvy_page_options .srvy--menu-detail p {
+        width: 50%;
+    }
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy--menu-detail a {
+    margin-left: 30px;
+    background: #02C23C;
+    padding: 6px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    float: right;
+}
+
+/* SHortcode Side Context */
+.srvy--shortcode-field .srvy--shortcode-field-wrap {
+    padding: 30px 10px;
+    background: #4a2242;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.srvy--shortcode-field .srvy--shortcode-field-wrap code {
+    font-size: 15px;
+    font-weight: bold;
+    -webkit-touch-callout: all;
+    -webkit-user-select: all;
+    -khtml-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}
+
+/* Others */
+.srvy--metabox-options#_srvy_page_options .srvy--width-50 .srvy-fieldset {
+    width: 50%;
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy-field-spacing input[type=number]:focus {
+    box-shadow: none;
+    border-color: #7e8993;
+    background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 1380px) {
+
+    .srvy--metabox-options#_srvy_page_options .srvy-text-desc img {
+        width: 100%;
+    }
+}
+
+/* Transparent placeholder text */
+.srvy--metabox-options#_srvy_page_options .srvy--no-placeholder input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: transparent;
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy--no-placeholder input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: transparent;
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy--no-placeholder input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: transparent;
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy--no-placeholder input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: transparent;
+}
+
+.srvy--metabox-options#_srvy_page_options .srvy--no-placeholder input::placeholder {
+    color: transparent;
+}
+
+
+
+/******************************************
+* Help page css start
+*/
+.wrap.about-wrap.srvy--help {
+    position: relative;
+}
+
+.wrap.about-wrap.srvy--help .about-text {
+    position: relative;
+    margin: 0;
+}
+
+.wrap.about-wrap.srvy--help .about-text .text {
+    width: 85%;
+    display: inline-block;
+}
+
+.help-badge {
+    background: transparent url(../img/icon-128x128.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    float: right;
+    width: 128px;
+    height: 128px;
+    margin-top: -35px;
+    background-position: center;
+}
+
+div.srvy--help .feature-section .srvy--feature {
+    background-color: #fff;
+    padding: 20px 20px;
+    border: 1px solid #ddd;
+}
+
+div.srvy--help .feature-section .srvy--feature h3 {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+div.srvy--help .feature-section i.srvy--font {
+    font-size: 30px;
+    display: block;
+    color: #007cba;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+}
+
+div.srvy--help .feature-section .button {
+    margin-top: 0px;
+}
+
+div.srvy--help.about-wrap h1 {
+    font-size: 2.6em;
+}
+
+div.srvy--help .headline-feature.feature-video {
+    position: relative;
+    margin: 40px 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+    max-width: 100%;
+    height: 0;
+    text-align: center;
+}
+
+div.srvy--help .headline-feature.feature-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.srvy--help.about-wrap .srvy--text-center {
+    text-align: center;
+}
+
+/*
+More Plugins
+*/
+.about-wrap .plugin-section .three-col .col {
+    background: #fff;
+}
+
+.about-wrap .plugin-section .three-col .col .srvy--plugin {
+    border: 1px solid #ddd;
+}
+
+.about-wrap .plugin-section .three-col .col .srvy--plugin .srvy--plugin-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.about-wrap .plugin-section .three-col .col .srvy--plugin .srvy--plugin-content h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.about-wrap .plugin-section .three-col .col .srvy--plugin .srvy--plugin-content p {
+    margin-top: 0;
+}
+
+.about-wrap .plugin-section .srvy--plugin-section-title h2 {
+    font-size: 2.2em;
+    color: #32373c;
+    font-weight: 400;
+}
+
+.about-wrap .plugin-section .srvy--plugin-section-title h4 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    color: #555d66;
+    margin-top: 15px;
+}
+
+.srvy--help.about-wrap [class$="-col"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    clear: both;
+}
+
+.srvy--help.about-wrap [class$="-col"] .col {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.srvy--help.about-wrap .col {
+    margin-top: 40px;
+}
+
+.about-wrap [class$="-col"] .col+.col {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 782px) {
+    .about-wrap .three-col .col {
+        min-width: 48% !important;
+        max-width: 48% !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about-wrap .three-col .col {
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+/*
+* Help page css end
+******************************************/
+
+/* Group Select Styles */
+.srvysp--option-settings .srvy-field-checkbox ul {
+    max-height: 100%;
+}
+.srvysp--option-settings .srvy-field-checkbox ul li ul li {
+    display: inline-block;
+    text-decoration: underline;
+    margin: 7px 3px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    border: 1px dashed #dcdcdc;
+}
+.srvysp--option-settings .srvy-field-checkbox ul li ul li:first-child {
+    display: block;
+    border: none;
+    font-size: 14px;
+}
+
+/* Added FontAwesome on Toggle On/Off Button */
+.fa-toggle-on:before,
+.fa-toggle-off:before {
+    font-family: FontAwesome;
+}
+
+/* Typography Icon Group Inlined */
+.srvysp--option-settings .srvy--block-font-color {
+    display: inline-block;
+}
+
+/* Group Field Coloring */
+.srvysp--option-settings .ui-accordion-header.ui-accordion-header-active.ui-state-active,
+.srvysp--option-settings .srvy-field-group .srvy-cloneable-content {
+    background-color: #ccd0d4;
+}
+.srvysp--option-settings .srvy-field-group .srvy-cloneable-header-icon {
+    font-size: 18px;
+    width: 35px;
+}
+
+/* Tabs details on settings page */
+.srvysp--option-settings .srvy--menu-detail {
+    padding: 15px 30px;
+}
+
+.srvysp--option-settings .srvy--menu-detail strong {
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .srvysp--option-settings .srvy--menu-detail p {
+        width: 50%;
+    }
+}
+
+.srvysp--option-settings .srvy--menu-detail a.srvy--need-help {
+    margin-left: 30px;
+    background: #02C23C;
+    padding: 6px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    float: right;
+}
+
+/* Others */
+.srvysp--option-settings .acc--conditional-tag-list {
+    float: left;
+    width: 100%;
+}
+.srvysp--option-settings .acc--conditional-tag-list li strong {
+    color: #23282d;
+}
+.srvysp--option-settings .acc--conditional-tag-list .srvy-fieldset {
+    position: relative;
+    z-index: 9;
+}
+.srvysp--option-settings .srvy-help.acc--conditional-tags-help {
+    color: brown;
+    font-size: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 135px;
+    top: 16px;
+    z-index: 9;
+}
+@media screen and (max-width: 782px) {
+    .srvysp--option-settings .srvy-help.acc--conditional-tags-help {
+        margin-left: 35px;
+        top: 110px;
+        font-size: 20px;
+    }
+}
+.srvysp--option-settings .acc--more-tag-repeater .srvy-repeater-wrapper .srvy-repeater-item {
+    width: 30%;
+}
+.srvysp--option-settings .srvy-cloneable-content .srvy-field-tabbed.acc--option-tab-list {
+    border-top: 0;
+}
+
+/* Code editor box large height */
+.srvy--metabox-options#_srvy_page_options .srvy-field-code_editor .CodeMirror {
+    height: 500px;
+}
+
+/* switcher inline-block */
+.srvy--metabox-options#_srvy_page_options .acc--inline-block-fields,
+.srvysp--option-settings .acc--inline-block-fields {
+    display: inline-block;
+    border: 1px dashed #eee;
+    margin: 15px;
+}
+
+/* Metabox options menu icon little tweaks */
+.srvy--metabox-options#_srvy_page_options a[data-section="_srvy_page_options_4"] i.fa {
+    font-weight: bold;
+}
+.srvy--metabox-options#_srvy_page_options a[data-section="_srvy_page_options_5"] i.fa {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Notice */
+.srvysp--option-settings .acc--notice-warning {
+    background-color: #ccd0d4;
+    color: #856404;
+    border-top: 0 !important;
+}
+.srvysp--option-settings .acc--notice-warning .srvy-notice {
+    background-color: #fff3cd;
+    border-color: #856404;
+}
+
+/* Repeater Field Icon Inline */
+#_srvy_page_options.srvy--metabox-options .acc--lib-load-repeater .srvy-repeater-helper-inner {
+    display: inline;
+}
+
+/* Others */
+.srvy--metabox-options#_srvy_page_options .srvy-theme-light .srvy-nav ul li .srvy-section-active {
+    box-shadow: none;
+}
